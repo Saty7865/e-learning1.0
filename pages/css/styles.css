@@ -1,0 +1,205 @@
+body {
+  font-size: 16px;
+  color: grey;
+  background-color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #262322;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/books.png') no-repeat;
+  width: 64px;
+  height: 64px;
+  float: left;
+  position: relative;
+  top: 16px;
+  left: -76px;
+}
+
+.navbar-brand {
+  font-size: 1.2em;
+  padding-top: 25px;
+  float: left;
+  position: relative;
+  left: -78px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#hoverlinks a:hover {
+  text-decoration: none;
+  color: #3E020D;
+}
+
+
+#nav-list {
+  vertical-align: middle;
+  font-size: 1.4em;
+  
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: skyblue;
+}
+
+@media (min-width: 1200px) {
+  .cent {
+  margin-right:75px; 
+  margin-left:75px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .pull-left1 {
+  position: relative;
+  left: 92px;
+  }
+  .pull-left2 {
+  position: relative;
+  left: 70px;
+  }
+}
+
+
+
+
+.container-fluid a {
+  color: red;
+  font-size: 0.9em;
+}
+
+.h2 {
+  font-size: 2em;
+}
+
+#lheight a:link {
+  line-height: 25px;
+}
+
+#lheight a {
+  color: #3387BB;
+}
+
+#lheight a:hover {
+  text-decoration: none;
+  color: #093ABC;
+}
+
+
+#menu-tile {
+  font-size: 1.2em; 
+  height: 200px;
+  width: 360px;
+  background-color: skyblue;
+}
+
+#menu-tile1 {
+  font-size: 1.2em; 
+  height: 30px;
+  width: 360px;
+  background-color: skyblue;
+  position: relative;
+  bottom: 18px;
+}
+
+
+#leftspace {
+  margin-left: 40px;
+  color: navy;
+}
+
+
+.panel-footer {
+  background-color: #262322;
+}
+
+#text-left {
+  margin-left: -16px;
+}
+
+#round-tile {
+  font-size: 1.2em; 
+  height: 60px;
+  width: 260px;
+  background-color: skyblue;
+  border-radius: 15px;
+}
+
+#upspace {
+  color: blue;
+  position: relative;  
+  top: 17px;
+  left: 36px;
+  font-family: Oxygen;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+#upspace2 {
+  color: navy;
+  position: relative;  
+  top: 25px;
+  left: 40px;
+}
+
+
+.greyback {
+  color: navy;
+  background-color: #BBCEDA;
+  height: 100px;
+  font-size: 2.5em;
+}
+
+@media (max-width: 768px) {
+  .greyback {
+  height: 140px;
+  }
+}
+
+
+.content-box-gray {
+  box-sizing: border-box;
+  background-color: skyblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  line-height: 35px;
+  border: 1px solid navy;
+
+  }
+
+@media (max-width: 768px) {
+  .content-box-gray {
+  width: 90%;
+  }
+}
+
+#hoverme a:hover {
+  color: #093ABC;
+  text-decoration: none;
+
+}
